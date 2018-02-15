@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FastFoodDelivery/FoodListTableViewController.swift"
+            timestampString = "515511777.611159"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "67"
+            endingLineNumber = "67"
+            landmarkName = "tableView(_:cellForRowAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "FastFoodDelivery/FoodListTableViewCell.swift"
+            timestampString = "515556618.429122"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "13"
+            endingLineNumber = "13"
+            landmarkName = "FoodListTableViewCell"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FastFoodDelivery.FoodListTableViewCell.foodName.setter : Swift.ImplicitlyUnwrappedOptional&lt;__ObjC.UILabel&gt;"
+                  moduleName = "FastFoodDelivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/richardrusli/Documents/MONASH%20-%202017%203rd%20year/FIT3027%20-%20ANDROID%20&amp;%20IOS/FastFoodDelivery/FastFoodDelivery/FoodListTableViewCell.swift"
+                  timestampString = "515556640.357869"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "65">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FastFoodDelivery.FoodListTableViewCell.init (style : __C.UITableViewCellStyle, reuseIdentifier : Swift.Optional&lt;Swift.String&gt;) -&gt; FastFoodDelivery.FoodListTableViewCell"
+                  moduleName = "FastFoodDelivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/richardrusli/Documents/MONASH%20-%202017%203rd%20year/FIT3027%20-%20ANDROID%20&amp;%20IOS/FastFoodDelivery/FastFoodDelivery/FoodListTableViewCell.swift"
+                  timestampString = "515556640.359961"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "69">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "FastFoodDelivery.FoodListTableViewCell.init (coder : __ObjC.NSCoder) -&gt; Swift.Optional&lt;FastFoodDelivery.FoodListTableViewCell&gt;"
+                  moduleName = "FastFoodDelivery"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/richardrusli/Documents/MONASH%20-%202017%203rd%20year/FIT3027%20-%20ANDROID%20&amp;%20IOS/FastFoodDelivery/FastFoodDelivery/FoodListTableViewCell.swift"
+                  timestampString = "515556640.361773"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "13"
+                  endingLineNumber = "13"
+                  offsetFromSymbolStart = "28">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

@@ -8,16 +8,29 @@
 
 import UIKit
 import CoreData
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
+    
+    //initialize the firebase configuration and offline sync
+    override init() {
+        FIRApp.configure()
+        FIRDatabase.database().persistenceEnabled = true
+    }
+    
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        UINavigationBar.appearance().barTintColor = UIColor(red: 50/255, green: 92/255, blue: 158/255, alpha: 0.5)
+        UINavigationBar.appearance().tintColor = UIColor.white
+        UINavigationBar.appearance().titleTextAttributes = [NSForegroundColorAttributeName:UIColor.white]
         return true
+//        FIRApp.configure()
+        
+//        rgb(12, 104, 255)
     }
 
     func applicationWillResignActive(_ application: UIApplication) {
@@ -88,6 +101,8 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             }
         }
     }
+
+    
 
 }
 
